@@ -27,7 +27,6 @@ backgroundMusic.loop = true; // Hace que la música se repita
 backgroundMusic.src = "https://tempfile.aiquickdraw.com/s/98c16df768d443d689c8efa20b401c02.mp3";
 document.body.appendChild(backgroundMusic); // Añade el elemento al cuerpo del documento
 
-// **NUEVA FUNCIONALIDAD: Control de reproducción según la visibilidad de la página**
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) {
       // La página está oculta (el usuario se ha ido a otra pestaña/app)
