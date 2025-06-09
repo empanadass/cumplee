@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Cumpleaños</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+  <h1>¡Feliz Cumpleaños!</h1>
+  <div class="grid" id="cards-container"></div>
+  <canvas id="fireworks"></canvas>
+
+  <!-- Modal -->
+  <div id="miModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-internal-background" id="modalLights"></div>
+      <span class="close" onclick="cerrarModal()">&times;</span>
+      <h2 id="modalTitle">Feliz Cumpleaños 🤗👀 Mishi Mishel Alison 👀🤗</h2>
+      <p id="modalMessage"></p>
+    </div>
+  </div>
+
+  
+  <audio id="backgroundMusic" loop>
+    <!-- ¡Importante! Asegúrate de que esta URL sea accesible y el archivo MP3 sea válido. -->
+    <!-- Tu URL actual: https://tempfile.aiquickdraw.com/s/98c16df768d443d689c8efa20b401c02.mp3 -->
+    <!-- Puedes cambiarla por otra si esta no funciona en tu entorno: -->
+    <source src="https://tempfile.aiquickdraw.com/s/98c16df768d443d689c8efa20b401c02.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+  <script src="js/script.js"></script>
+</body>
+</html>
