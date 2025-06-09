@@ -17,7 +17,12 @@ const emojis = [
 const grid = document.getElementById("cards-container");
 const canvas = document.getElementById("fireworks");
 const ctx = canvas.getContext("2d");
-const backgroundMusic = document.getElementById('backgroundMusic'); 
+
+const backgroundMusic = document.createElement('audio'); 
+backgroundMusic.loop = true; // Hace que la música se repita
+.
+backgroundMusic.src = "https://tempfile.aiquickdraw.com/s/98c16df768d443d689c8efa20b401c02.mp3";
+document.body.appendChild(backgroundMusic); 
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
