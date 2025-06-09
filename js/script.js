@@ -11,7 +11,7 @@ const messages = [
   "¡Es hora de saltar de felicidad, gritar de alegría y celebrar la vida con cada fibra de tu ser durante al menos 5 segundos! Que tu energía contagie a todos a tu alrededor."
 ];
 const emojis = [
-  "🎉", "✨", "💖", "🌌", "😁", "🎁", "🤗", "�", "🕺"
+    "🎉", "✨", "🙈", "🌌", "😁", "🎁", "🤗", "🥳", "🦋"
 ];
 
 // Obtener elementos del DOM para la cuadrícula y el lienzo de fuegos artificiales
