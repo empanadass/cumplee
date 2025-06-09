@@ -1,7 +1,7 @@
 // Array de mensajes de cumpleaños y emojis correspondientes para las tarjetas
 const messages = [
   "¡Que este nuevo año de vida esté lleno de momentos inolvidables, alegría desbordante y mucho amor! Que todos tus sueños más anhelados se hagan realidad.",
-  "Hoy celebramos tu existencia, tu luz, tu bondad y la alegría que irradias. Gracias por ser una persona tan maravillosa y por cada momento que compartimos. ¡Felicidades!",
+  "Hoy celebramos tu existencia, tu luz, tu bondad y la alegría que irradias. Gracias por ser una persona tan maravillosa. ¡Felicidades!",
   "Este es un día especial para una persona verdaderamente inolvidable. Que la felicidad te siga a cada paso y que cada instante sea un tesoro de momentos felices.",
   "Hoy, el universo entero se une en un coro de alegría para celebrar tu vida. Que la energía positiva te envuelva y te guíe hacia un futuro lleno de éxitos y prosperidad.",
   "Sonríe con todo tu corazón, porque hoy es tu día, un día para celebrar la vida que has construido y la que está por venir. ¡Muchísimas felicidades en tu cumpleaños!",
